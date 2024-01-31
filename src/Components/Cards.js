@@ -8,9 +8,9 @@ function Cards({items_name,addorder,table_number}) {
     useEffect(() => {
         fetch("https://658154513dfdd1b11c42fa6a.mockapi.io/items").then(
             response => response.json()).then(
-                json => {
-                    setData(json);
-                    setCloneData(json);
+                response => {
+                    setData(response);
+                    setCloneData(response);
                 })
     }, [])
     useEffect(() => {

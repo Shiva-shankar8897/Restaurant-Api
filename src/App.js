@@ -4,7 +4,6 @@ import HomePage from './Components/HomePage';
 import OrdersPage from './Components/OrdersPage';
 import PageNotFound from './Components/PageNotFound';
 
-
 function App() {
   return (
     <div>
